@@ -274,7 +274,7 @@ namespace injection
 			if (!hProc)
 				return;
 
-			if (!manual_map(hProc, loaderbytes))
+			if (!manual_map(hProc, rawData))
 				CloseHandle(hProc);
 		}
 		return;
